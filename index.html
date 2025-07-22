@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OLL Algorithms</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      color: #f0f0f0;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #00ffd5;
+    }
+
+    h2 {
+      margin-top: 1.5em;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.3em;
+    }
+
+    .alg {
+      background: #333;
+      border-left: 4px solid #00ffd5;
+      padding: 10px;
+      margin: 10px 0;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>OLL Algorithms</h1>
+
+  <h2>Edges</h2>
+  <div class="alg"><strong>Dot:</strong> F (R U R' U') F' f (R U R' U') f'</div>
+  <div class="alg"><strong>L Shape:</strong> f (R U R' U') f'</div>
+  <div class="alg"><strong>Line:</strong> F (R U R' U') F'</div>
+
+  <h2>No Corners Solved</h2>
+  <div class="alg"><strong>H:</strong> F (R U R' U')3 F'</div>
+  <div class="alg"><strong>Pi:</strong> R U2 (R2 U' R2 U' R2) U2 R</div>
+
+  <h2>1 Corner Solved</h2>
+  <div class="alg"><strong>Sune:</strong> R U R' U R U2 R'</div>
+  <div class="alg"><strong>Antisune:</strong> L' U' L U' L' U2 L</div>
+
+  <h2>2 Corners Solved</h2>
+  <div class="alg"><strong>L:</strong> x (R' U R D') (R' U' R D)</div>
+  <div class="alg"><strong>T:</strong> x (L U R' U') (L' U R U')</div>
+  <div class="alg"><strong>U:</strong> R2 D R' U2 R D' R' U2 R'</div>
+
+</body>
+</html>
